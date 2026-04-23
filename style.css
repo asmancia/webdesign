@@ -1,0 +1,254 @@
+.header {
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+ }
+
+ body {
+    background: #e5e5ff;
+    font-family: Arial, sans-serif;
+    color: #000;
+  }
+  
+  .container {
+    width: 20px;
+    margin: 20px auto;
+    background: #fff;
+    border: 3px solid #0000cc;
+    padding: 15px;
+  }
+  
+  
+  
+  .user-list {
+    display: grid;
+    grid-template-columns: repeat(4, 3fr);
+    gap: 15px;
+    margin-top: 15px;
+  }
+  
+  
+  .user-card {
+    background: #f0f0ff;
+    border: 2px solid #0000cc;
+    text-align: left;
+    padding: 10px;
+    box-shadow: 2px 2px 0 #000;
+  }
+  
+  .user-card img {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #000;
+    margin-bottom: 8px;
+  }
+  
+  .user-card h3 {
+    font-size: 14px;
+    color: #0000cc;
+    margin: 5px 0;
+  }
+  
+  .user-card p {
+    font-size: 12px;
+    color: #333;
+  }
+  
+  
+  .user-card:hover {
+    background: #dcdcff;
+    transform: scale(1.05);
+  }
+
+  .meet-box {
+    background: #fff;
+    border: 2px solid #1a32d1;
+    padding: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .meet-box h3 {
+    color: rgb(13, 0, 255);
+    border-bottom: 1px solid #ccc;
+  }
+  .meet-list {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+  }
+
+  .meet-card {
+    background: rgb(196, 196, 196);
+    border: 1px solid rgb(13, 0, 255);
+    text-align: center;
+    padding: 8px;
+    width: 30%;
+    box-shadow: 2px 2px 0 #000;
+
+    }
+
+    .meet-card button {
+        background:rgb(13, 0, 255);
+        color: white;
+        border: none;
+        padding: 5px;
+        font-size: 12px;
+        cursor: pointer;
+      }
+      
+      .meet-card button:hover {
+        background: rgb(13, 0, 255);
+      }
+
+      .meet-card img {
+        width: 150px;
+        height: 150px;
+        margin-bottom: 5px;
+      }
+
+      .box {
+        background: white;
+        border: 2px solid rgb(0, 0, 204);
+        padding: 10px;
+        margin-bottom: 15px;
+      }
+      
+      .box h3 {
+        color: rgb(0, 0, 204);
+        border-bottom: 1px solid rgb(204, 204, 204);
+      }
+    
+
+      .bulletin-box {
+        background: rgb(255, 255, 255);
+        border: 2px solid rgb(0, 0, 204);
+        padding: 10px;
+        margin-bottom: 15px;
+        font-family: Verdana, sans-serif;
+      }
+      
+      .bulletin-box h3 {
+        color: rgb(0, 0, 204);
+        border-bottom: 1px solid rgb(204, 204, 204);
+        margin-bottom: 10px;
+      }
+      
+      .bulletin-post {
+        border-bottom: 1px dashed rgb(153, 153, 153);
+        padding: 8px 0;
+        font-size: 13px;
+      }
+      
+      .bulletin-post b {
+        color: rgb(0, 51, 204);
+      }
+      
+      .bulletin-post p {
+        margin: 3px 0;
+      }
+      
+      .bulletin-post span {
+        font-size: 11px;
+        color: gray;
+      }
+      
+      .bulletin-post:hover {
+        background: rgb(240, 240, 255);
+      }
+
+      
+
+      body {
+        background: #d6d6ff;
+        font-family: Verdana, sans-serif;
+        margin: 0;
+      }
+      
+      
+      .topbar {
+        background: linear-gradient(to right, #0033cc, #3366ff);
+        color: white;
+        padding: 10px;
+      }
+      
+      .topbar a {
+        color: white;
+        margin-left: 20px;
+        text-decoration: none;
+      }
+      
+      
+      .container {
+        display: flex;
+        width: 900px;
+        margin: 20px auto;
+        gap: 15px;
+      }
+      
+      .left { width: 25%; }
+      .center { width: 50%; }
+      .right { width: 25%; }
+      
+      
+      .box {
+        background: white;
+        border: 2px solid #0000cc;
+        padding: 10px;
+        margin-bottom: 15px;
+      }
+      
+      .box h3 {
+        color: #0000cc;
+        border-bottom: 1px solid #ccc;
+      }
+      
+   
+      .profile-card {
+        background: white;
+        border: 2px solid #0000cc;
+        text-align: center;
+        padding: 10px;
+        margin-bottom: 15px;
+      }
+      
+      .profile-card img {
+        width: 120px;
+        height: 120px;
+        border: 2px solid black;
+      }
+      
+      .status {
+        color: green;
+        font-weight: bold;
+      }
+     
+      .friend {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        margin-bottom: 5px;
+      }
+      
+      .friend img {
+        width: 40px;
+        height: 40px;
+        border: 1px solid black;
+      }
+      
+      
+      .post, .comment {
+        border-bottom: 1px dashed #aaa;
+        padding: 5px 0;
+        font-size: 13px;
+      }
+      
+     
+      .box:hover {
+        box-shadow: 2px 2px 0 black;
+      }
+      
+      @media (min-width: 768px) {
+        .container {
+          flex-direction: row;
+        }
+      }
